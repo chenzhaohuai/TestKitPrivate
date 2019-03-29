@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'TestKitPrivate_Example' do
+  pod 'TestKitPrivate', :path => '../'
+
+  target 'TestKitPrivate_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
