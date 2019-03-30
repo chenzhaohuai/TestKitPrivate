@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TestKitPrivate'
-  s.version          = '0.0.1'
+  s.version          = '0.0.3'
   s.summary          = '简单的简介介绍'
 
 # This description is used to generate tags and improve search results.
