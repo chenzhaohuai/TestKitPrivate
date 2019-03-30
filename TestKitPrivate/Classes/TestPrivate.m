@@ -9,4 +9,8 @@
 
 @implementation TestPrivate
 
++ (void)testlog {
+    NSLog(@"testlog-------testlog");
+}
+
 @end

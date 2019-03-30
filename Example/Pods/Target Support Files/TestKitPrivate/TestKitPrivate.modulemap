@@ -1,0 +1,6 @@
+framework module TestKitPrivate {
+  umbrella header "TestKitPrivate-umbrella.h"
+
+  export *
+  module * { export * }
+}
